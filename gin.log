@@ -1,0 +1,17 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /register                 --> github.com/kudabab/market-s/controller.RegisterUser (3 handlers)
+[GIN-debug] GET    /users                    --> github.com/kudabab/market-s/controller.FindAllUsers (5 handlers)
+[GIN-debug] GET    /items                    --> github.com/kudabab/market-s/controller.GetItemsByCategory (5 handlers)
+[GIN-debug] GET    /items/item               --> github.com/kudabab/market-s/controller.GetProductByID (5 handlers)
+[GIN-debug] GET    /cart/add                 --> github.com/kudabab/market-s/controller.AddToCart (5 handlers)
+[GIN-debug] POST   /cart/remove              --> github.com/kudabab/market-s/controller.RemoveFromCart (5 handlers)
+[GIN-debug] GET    /cart                     --> github.com/kudabab/market-s/controller.GetCart (5 handlers)
+[GIN-debug] POST   /order                    --> github.com/kudabab/market-s/controller.CreateOrder (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
